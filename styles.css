@@ -1,0 +1,117 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container {
+  max-width: 30%;
+  padding: 30px;
+  margin: 0 auto;
+  border: 1px solid black;
+  /* display: flex; */
+  margin-top: 50px;
+}
+.table-container {
+  width: 50%;
+  margin: 50px auto 0 auto;
+  border: 1px solid black;
+}
+#searchContents {
+  width: 100%;
+}
+h1 {
+  margin-top: 10px;
+  text-align: center;
+}
+form {
+  /* text-align: center; */
+  /* margin-top: 50px; */
+}
+form > div {
+  margin-top: 20px;
+  padding-bottom: 5px;
+}
+form > div label,
+form > div input {
+  display: block;
+  width: 100%;
+}
+form input {
+  margin-top: 10px;
+  padding: 5px;
+}
+#btn,
+#update {
+  margin-top: 30px;
+  text-align: center;
+  width: 100%;
+}
+#nameError,
+#emailError,
+#phoneError {
+  /* position: absolute; */
+  color: red;
+}
+#searchContents {
+  /* width: 60%; */
+  /* padding: 30px; */
+  margin: 0 auto;
+  /* display: flex; */
+  /* margin-top: 50px; */
+}
+.search-container {
+  width: 50%;
+  margin: 0 auto;
+}
+.searchDropBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+input {
+  width: 90%;
+}
+#dropdownMenu {
+  width: 40%;
+}
+
+/* .table {
+  border: 1px solid #ccc;
+  border-collapse: collapse;
+}
+.table th,
+.table td {
+  border: 1px solid #ccc;
+}
+.table th,
+.table td {
+  padding: 0.5rem;
+} */
+.draggable {
+  cursor: move;
+  user-select: none;
+}
+.placeholder {
+  background-color: #edf2f7;
+  border: 2px dashed #cbd5e0;
+}
+.clone-list {
+  border-top: 1px solid #ccc;
+}
+.clone-table {
+  border-collapse: collapse;
+  border: none;
+}
+.clone-table th,
+.clone-table td {
+  border: 1px solid #ccc;
+  border-top: none;
+  padding: 0.5rem;
+}
+.dragging {
+  background: #fff;
+  border-top: 1px solid #ccc;
+  z-index: 999;
+}
